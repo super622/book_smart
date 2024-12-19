@@ -26,6 +26,7 @@ if linkage != nil
 end
 
 target 'BookSmart' do
+  pod 'BEMCheckBox'
   config = use_native_modules!
 
   use_react_native!(
